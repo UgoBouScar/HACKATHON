@@ -1,8 +1,9 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-expressions */
-[
+export default [
   {
     id: 1,
+    class: "champagne",
     nom: "Champagne",
     région: "Champagne",
     image:
@@ -12,6 +13,7 @@
   },
   {
     id: 2,
+    class: "cognac",
     nom: "Cognac",
     région: "Charente",
     image:
@@ -21,6 +23,7 @@
   },
   {
     id: 3,
+    class: "armagnac",
     nom: "Armagnac",
     région: "Gascogne",
     image:
@@ -30,6 +33,7 @@
   },
   {
     id: 4,
+    class: "calvados",
     nom: "Calvados",
     région: "Normandie",
     image:
@@ -39,6 +43,7 @@
   },
   {
     id: 5,
+    class: "chartreuse",
     nom: "Chartreuse",
     région: "Isère",
     image:
@@ -48,6 +53,7 @@
   },
   {
     id: 6,
+    class: "pastis",
     nom: "Pastis",
     région: "Provence Alpes Côte d'Azur",
     image:
@@ -57,6 +63,7 @@
   },
   {
     id: 7,
+    class: "vin-rouge",
     nom: "Vin rouge",
     région: "Nouvelle-Aquitaine",
     image:
@@ -66,6 +73,7 @@
   },
   {
     id: 8,
+    class: "vin-blanc",
     nom: "Vin blanc",
     région: "Alsace",
     image:
@@ -75,6 +83,7 @@
   },
   {
     id: 9,
+    class: "vin-rose",
     nom: "Vin rosé",
     région: "Languedoc-Roussillon",
     image:
@@ -84,6 +93,7 @@
   },
   {
     id: 10,
+    class: "pineau",
     nom: "Pineau des Charentes",
     région: "Nouvelle-Aquitaine",
     image:
@@ -93,6 +103,7 @@
   },
   {
     id: 11,
+    class: "lillet",
     nom: "Lillet",
     région: "Nouvelle-Aquitaine",
     image:
@@ -102,6 +113,7 @@
   },
   {
     id: 12,
+    class: "cidre",
     nom: "Cidre",
     région: "Normandie",
     image:
@@ -111,6 +123,7 @@
   },
   {
     id: 13,
+    class: "banyuls",
     nom: "Banyuls",
     région: "Languedoc-Roussillon",
     image:
@@ -120,6 +133,7 @@
   },
   {
     id: 14,
+    class: "ratafia",
     nom: "Ratafia",
     région: "Corse",
     image:
@@ -129,6 +143,7 @@
   },
   {
     id: 15,
+    class: "absinthe",
     nom: "Absinthe",
     région: "Bourgogne-Franche-Comté",
     image:
