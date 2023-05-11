@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "@components/modal.scss";
+import "../sass/modal.scss";
 
 function Modal({ setOpenModal }) {
   return (
