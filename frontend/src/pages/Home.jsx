@@ -1,9 +1,22 @@
+import { useState } from "react";
+import Modal from "@components/Modal";
+
 export default function Home() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
-    <header className="App-header">
-      <div>
-        <p>HomePage</p>
-      </div>
-    </header>
+    <div>
+      <button
+        type="button"
+        className="openModalBtn"
+        onClick={() => {
+          setModalOpen(true);
+        }}
+      >
+        Open
+      </button>
+
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
+    </div>
   );
 }
