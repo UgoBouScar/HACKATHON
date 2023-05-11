@@ -1,4 +1,9 @@
-nav {
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../fonts/SamsungSans-Bold.ttf") format("truetype");
+}
+header {
   width: 100%;
   height: 41.7vw;
   background: url("../assets/table_alcool_fromage.jpg") no-repeat;
@@ -8,19 +13,25 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 
-  div {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 20px;
 
     img {
-      width: clamp(60px, 10vw, 150px);
+      width: clamp(40px, 10vw, 150px);
+    }
+    .linkFooter {
+      font-size: clamp(0.5rem, 4vw, 2rem);
+      font-family: "Light";
     }
   }
   h1 {
-    font-size: clamp(1rem, 5vw, 3rem);
+    font-size: clamp(1rem, 5vw, 5rem);
     color: #ffffff;
     margin: 0 10px;
+    font-family: "Light";
+    letter-spacing: 1px;
   }
 }
