@@ -1,19 +1,10 @@
 import PropTypes from "prop-types";
+import "@components/modal.scss";
 
 function Modal({ setOpenModal }) {
   return (
     <div className="modalBackground">
       <div className="modalContainer">
-        <div className="titleCloseBtn">
-          <button
-            type="button"
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
-        </div>
         <div className="title">
           <h1>Nom du fromage</h1>
         </div>

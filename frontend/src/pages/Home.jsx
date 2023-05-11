@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modal from "@components/Modal";
+import icon from "@assets/icons-marqueur.png";
+import "@components/home.scss";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -13,7 +15,7 @@ export default function Home() {
           setModalOpen(true);
         }}
       >
-        Open
+        <img src={icon} alt="icon" />
       </button>
 
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
