@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Modal from "@components/Modal";
+import NavBar from "@components/NavBar";
+import Footer from "@components/Footer";
 import icon from "@assets/icons-marqueur.png";
 import "@components/home.scss";
 
@@ -8,6 +10,7 @@ export default function Home() {
 
   return (
     <div>
+      <NavBar />
       <button
         type="button"
         className="openModalBtn"
@@ -19,6 +22,7 @@ export default function Home() {
       </button>
 
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
+      <Footer id="footer" />
     </div>
   );
 }
