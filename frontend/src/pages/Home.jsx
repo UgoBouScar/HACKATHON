@@ -11,17 +11,22 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <button
-        type="button"
-        className="openModalBtn"
-        onClick={() => {
-          setModalOpen(true);
-        }}
-      >
-        <img src={icon} alt="icon" />
-      </button>
+      <div className="home">
+        <div className="background-container" />{" "}
+        <div className="map-container">
+          <button
+            type="button"
+            className="openModalBtn"
+            onClick={() => {
+              setModalOpen(true);
+            }}
+          >
+            <img src={icon} alt="icon" />
+          </button>
 
-      {modalOpen && <Modal setOpenModal={setModalOpen} />}
+          {modalOpen && <Modal setOpenModal={setModalOpen} />}
+        </div>
+      </div>
       <Footer id="footer" />
     </div>
   );
