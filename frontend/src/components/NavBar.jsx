@@ -1,5 +1,4 @@
 import "../sass/NavBar.scss";
-// import { HashLink as Link} from "react-router-hash-link";
 import { Link } from "react-scroll";
 
 export default function NavBar() {

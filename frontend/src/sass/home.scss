@@ -1,3 +1,5 @@
+@import url("leaflet/dist/leaflet.css");
+
 .home {
   flex: 1;
   display: flex;
@@ -19,12 +21,18 @@
 }
 
 .map-container {
-  background: url("@assets/france-23502.png") center no-repeat;
-  background-size: contain;
+  // background: url("@assets/france-23502.png") center no-repeat;
+  // background-size: contain;
   flex-grow: 1;
-  min-height: calc(100vh - 200px);
+  // min-height: calc(100vh - 200px);
+  height: 300px;
   position: relative;
   z-index: 1; // Ajouter cette ligne
+  width: 30vw;
+}
+.leaflet-container {
+  width: 50%;
+  height: 550px;
 }
 
 .openModalBtn {
