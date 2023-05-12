@@ -4,11 +4,11 @@ import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
 import icon from "@assets/icons-marqueur.png";
 import "../sass/home.scss";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState(false);
-  const position = [51.505, 50.09];
+  const position = [46.6, 2.3];
 
   return (
     <div>
@@ -16,10 +16,10 @@ export default function Home() {
       <div className="home">
         <div className="background-container" />{" "}
         <div className="map-container">
-          <MapContainer center={position} zoom={15} scrollWheelZoom={false}>
+          <MapContainer center={position} zoom={6} scrollWheelZoom={false}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              url="https://{s}.tile.jawg.io/jawg-light/{z}/{x}/{y}{r}.png?access-token=McYADq7lgecAAVwN3GCeSwc0WCe3wJfiJ24b9ZPih0E4lvvz1nunyyZU3zcBk9Si"
             />
             <Marker position={position}>
               <Popup>
