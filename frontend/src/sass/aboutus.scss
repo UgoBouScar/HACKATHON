@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Light";
+  src: local("AirbnbCerealLight"),
+    url("../fonts/SamsungSans-Bold.ttf") format("truetype");
+}
+
+.container {
+  background: url("../assets/bgApropos.png") no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  margin: 0;
+  h2 {
+    font-family: "Light";
+    font-size: 1.8rem;
+  }
+
+  .description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+
+    img {
+      width: 200px;
+      margin-right: 20px;
+    }
+
+    p {
+      font-family: "Light";
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-family: "Light";
+      font-size: 1.3rem;
+    }
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: clamp(100%, 10vw, 80%);
+    margin: 0 auto;
+    height: 300px;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    min-height: fit-content;
+    .description {
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+    .photo {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

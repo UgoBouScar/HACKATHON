@@ -1,10 +1,11 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-expressions */
-[
+export default [
   {
     id: 1,
     nom: "Champagne",
     région: "Champagne",
+    position_marker: [49.258329, 4.031696],
     image:
       "https://images.pexels.com/photos/1841506/pexels-photo-1841506.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -14,6 +15,7 @@
     id: 2,
     nom: "Cognac",
     région: "Charente",
+    position_marker: [45.691046, 0.328744],
     image:
       "https://images.pexels.com/photos/7254753/pexels-photo-7254753.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -23,6 +25,7 @@
     id: 3,
     nom: "Armagnac",
     région: "Gascogne",
+    position_marker: [43.9667, -0.1833],
     image:
       "https://media.istockphoto.com/id/534682963/fr/photo/whiskey-sur-table.jpg?b=1&s=612x612&w=0&k=20&c=Xuv8jXykJK8nFDmEiHcZsQTfpFLbLWfA5xE61vPiGCU=",
     description:
@@ -32,6 +35,7 @@
     id: 4,
     nom: "Calvados",
     région: "Normandie",
+    position_marker: [49.0677708, 0.3138532],
     image:
       "https://images.pexels.com/photos/7809750/pexels-photo-7809750.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -41,6 +45,7 @@
     id: 5,
     nom: "Chartreuse",
     région: "Isère",
+    position_marker: [45.2897932, 5.6343825],
     image:
       "https://media.istockphoto.com/id/1182731681/fr/photo/boisson-alcoolis%C3%A9e-stimulant-cr%C3%A9atif-et-th%C3%A8me-de-concept-de-style-de-vie-boh%C3%A8me-avec-une.jpg?s=612x612&w=0&k=20&c=VpRqf0Q9B2vRk4mczhhJnq4tRZWws2BiCKPkYSXwQf4=",
     description:
@@ -50,6 +55,7 @@
     id: 6,
     nom: "Pastis",
     région: "Provence Alpes Côte d'Azur",
+    position_marker: [44.0580563, 6.0638506],
     image:
       "https://media.istockphoto.com/id/173258675/fr/photo/verre-de-pastis.jpg?b=1&s=612x612&w=0&k=20&c=uIG25u8jFP6iwE8I7YsmPruJm0PVvA7et1Y6llY9gSE=",
     description:
@@ -59,6 +65,7 @@
     id: 7,
     nom: "Vin rouge",
     région: "Nouvelle-Aquitaine",
+    position_marker: [45.691046, 0.328744],
     image:
       "https://images.pexels.com/photos/7809780/pexels-photo-7809780.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -68,6 +75,7 @@
     id: 8,
     nom: "Vin blanc",
     région: "Alsace",
+    position_marker: [48.30125000000004, 7.421850000000063],
     image:
       "https://images.pexels.com/photos/10794365/pexels-photo-10794365.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -77,6 +85,7 @@
     id: 9,
     nom: "Vin rosé",
     région: "Languedoc-Roussillon",
+    position_marker: [43.66667000000007, 3.1666700000000674],
     image:
       "https://images.pexels.com/photos/9805459/pexels-photo-9805459.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -86,6 +95,7 @@
     id: 10,
     nom: "Pineau des Charentes",
     région: "Nouvelle-Aquitaine",
+    position_marker: [45.48622653833842, 0.02820224751225595],
     image:
       "https://st5.depositphotos.com/1029099/62715/i/600/depositphotos_627152282-stock-photo-brussels-belgium-november-2022-two.jpg",
     description:
@@ -95,6 +105,7 @@
     id: 11,
     nom: "Lillet",
     région: "Nouvelle-Aquitaine",
+    position_marker: [44.7002222, 0.2995785],
     image:
       "https://st2.depositphotos.com/37462746/44171/i/600/depositphotos_441714534-stock-photo-viersen-germany-january-2021-close.jpg",
     description:
@@ -104,6 +115,7 @@
     id: 12,
     nom: "Cidre",
     région: "Normandie",
+    position_marker: [49.120065287000045, 0.11099757300002011],
     image:
       "https://images.pexels.com/photos/9605297/pexels-photo-9605297.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -113,6 +125,7 @@
     id: 13,
     nom: "Banyuls",
     région: "Languedoc-Roussillon",
+    position_marker: [43.66667000000007, 3.1666700000000674],
     image:
       "https://images.pexels.com/photos/4110406/pexels-photo-4110406.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -122,6 +135,7 @@
     id: 14,
     nom: "Ratafia",
     région: "Corse",
+    position_marker: [42.1880896, 9.0684138],
     image:
       "https://images.pexels.com/photos/4063107/pexels-photo-4063107.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -131,6 +145,7 @@
     id: 15,
     nom: "Absinthe",
     région: "Bourgogne-Franche-Comté",
+    position_marker: [47.32464599609375, 5.041869163513184],
     image:
       "https://media.istockphoto.com/id/594055508/fr/photo/absinthe-en-verre-pontarlier-sur-ardoise-fonc%C3%A9e.jpg?b=1&s=612x612&w=0&k=20&c=NCGEMLxDiCdqIltbnOzjY9gH__yWW2uTrztr6OQB980=",
     description:
