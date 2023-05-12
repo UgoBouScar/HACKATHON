@@ -17,13 +17,12 @@
 .contact-info {
   margin-top: 30px;
   margin-left: 25%;
-  
+
   position: absolute;
   width: 60rem;
   height: 22rem;
   display: block;
   align-items: center;
-  
 }
 .h2 {
   font-size: 1.5rem;
@@ -42,28 +41,24 @@ textarea {
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
-  
 }
 .contact-message {
   height: 80px;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   width: 37.5rem;
 }
 .contact-email {
-  background-color:antiquewhite;
-  width: 15rem;
-  border: none;
-  
-}
-.contact-name{
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   width: 15rem;
   border: none;
 }
-.name--email{
+.contact-name {
+  background-color: antiquewhite;
+  width: 15rem;
+  border: none;
+}
+.name--email {
   display: flex;
-
-
 }
 label {
   color: antiquewhite;
@@ -72,17 +67,15 @@ label {
 }
 
 button[type="submit"] {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   color: black;
-  
+
   padding: 0.5rem;
   border-radius: 0.25rem;
   margin-bottom: 15px;
   border: none;
   width: 37.5rem;
-  
 }
-.footer--title{
+.footer--title {
   color: antiquewhite;
-
 }
