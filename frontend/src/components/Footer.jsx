@@ -13,23 +13,32 @@ export default function Footer() {
 
   return (
     <div className="footer">
-      <h1>Contactez nous</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        />
-        <button type="submit">Envoyer</button>
-      </form>
+      <img
+        className="footer--img"
+        src="../src/assets/image_footer.jpg"
+        alt="imagefooter"
+      />
+      <div className="contact-info">
+        <h2>Contactez nous</h2>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            className="contact-email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <label htmlFor="message">Message</label>
+          <textarea
+            id="message"
+            className="contact-message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
     </div>
   );
 }

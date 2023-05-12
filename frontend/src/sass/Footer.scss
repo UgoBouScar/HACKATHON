@@ -1,10 +1,28 @@
 .footer {
-    font-family: sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-  }
+  display: flex;
   
-  h1 {
+    font-family: sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    background-position: bottom;
+    position: relative;
+  }
+  .footer--img{
+    width: 100rem;
+    height: 25rem;
+    position: relative;
+    
+  }
+  .contact-info{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    width: 40rem;
+    height: 22rem;
+    
+  }
+.h2 {
     font-size: 1.5rem;
   }
   
@@ -16,18 +34,26 @@
   input,
   textarea {
     display: block;
-    width: 100%;
+    width: 60%;
+    height: 40px;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 0.25rem;
-    border: none;
+    border:solid black;
+  }
+  .contact-message{
+    height: 80px;
+    background-color: burlywood;
+  }
+  .contact-email{
+    background-color: burlywood;
   }
   
   button[type='submit'] {
-    background-color: #0077cc;
-    color: white;
+    background-color: burlywood;
+    color: black;
     padding: 0.5rem;
     border-radius: 0.25rem;
     margin-bottom: 15px;
-    border: none;
+    border: solid black;
   }
