@@ -1,0 +1,88 @@
+.footer {
+  display: flex;
+  font-family: sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  background-position: bottom;
+  position: relative;
+  align-items: center;
+}
+.footer--img {
+  width: 100rem;
+  height: 60rem;
+  position: relative;
+}
+
+.contact-info {
+  margin-top: 30px;
+  margin-left: 25%;
+  
+  position: absolute;
+  width: 60rem;
+  height: 22rem;
+  display: block;
+  align-items: center;
+  
+}
+.h2 {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 60%;
+  height: 40px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  
+}
+.contact-message {
+  height: 80px;
+  background-color:antiquewhite;
+  width: 37.5rem;
+}
+.contact-email {
+  background-color:antiquewhite;
+  width: 15rem;
+  border: none;
+  
+}
+.contact-name{
+  background-color:antiquewhite;
+  width: 15rem;
+  border: none;
+}
+.name--email{
+  display: flex;
+
+
+}
+label {
+  color: antiquewhite;
+  font-size: 1.25rem;
+  letter-spacing: 0.19rem;
+}
+
+button[type="submit"] {
+  background-color:antiquewhite;
+  color: black;
+  
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+  border: none;
+  width: 37.5rem;
+  
+}
+.footer--title{
+  color: antiquewhite;
+
+}

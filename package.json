@@ -33,6 +33,7 @@
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.3",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "sass": "^1.62.1"
   }
 }
