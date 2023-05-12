@@ -1,5 +1,6 @@
 import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
+import Apropos from "@components/Apropos";
 import "../sass/home.scss";
 import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 import cheeses from "@components/Cheese_db";
@@ -56,6 +57,7 @@ export default function Home() {
             ))}
         </MapContainer>
       </div>
+      <Apropos id="aboutUs" />
       <Footer id="footer" />
     </div>
   );
