@@ -1,7 +1,34 @@
 @import url("leaflet/dist/leaflet.css");
+.home {
+  position: relative;
 
-.leaflet-container {
-  width: 50vw;
-  height: 550px;
-  margin: 0 auto;
+  .background-container {
+    background: url("@assets/background.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+    padding: 60px 0;
+    height: 670px;
+  }
+
+  .leaflet-container {
+    width: min(100vw, 550px);
+    height: 550px;
+    position: absolute;
+    top: 60px;
+    left: calc(50% - min(100vw, 550px) / 2);
+  }
+
+  @media screen and (min-width: 1366px) {
+    .background-container {
+      padding: 70px 0;
+      height: 50vw;
+    }
+    .leaflet-container {
+      width: 40%;
+      height: calc(50vw - 140px);
+      left: 30%;
+      top: 70px;
+    }
+  }
 }
