@@ -125,7 +125,8 @@ export default [
     id: 13,
     name: "Coulommiers",
     position_marker: [48.805818, 3.091796],
-    image: "",
+    image:
+      "https://th.bing.com/th/id/R.6af0ab4e9d77c240f805029dc667c6b0?rik=IR2XbO%2f%2f0n4h0g&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0218%2f9210%2fproducts%2fCoulommiers_Loiseau_Fromage_Freres.jpg%3fv%3d1386441067&ehk=VwsslvplKDa0dFKoThpL7Xk%2fDjIyWksVka%2f%2fS4vggPc%3d&risl=&pid=ImgRaw&r=0",
     region: "Île-de-France",
     description:
       "Il est fabriqué à partir de lait de vache et a une saveur douce et légèrement noisette.",

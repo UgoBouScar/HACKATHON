@@ -17,6 +17,14 @@
     position: absolute;
     top: 60px;
     left: calc(50% - min(100vw, 550px) / 2);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .filter {
+    position: absolute;
+    right: calc(50% - min(100vw, 550px) / 2);
+    top: 60px;
+    z-index: 10000;
   }
 
   @media screen and (min-width: 1366px) {
