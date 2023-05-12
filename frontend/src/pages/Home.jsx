@@ -7,6 +7,7 @@ import cheeses from "@components/Cheese_db";
 import alcools from "@components/alcools_db";
 import "../sass/markers.scss";
 import { useState } from "react";
+import AboutUs from "@components/AboutUs";
 
 export default function Home() {
   const position = [46.6, 2.3];
@@ -57,7 +58,7 @@ export default function Home() {
             ))}
         </MapContainer>
       </div>
-      <Apropos id="aboutUs" />
+      <AboutUs />
       <Footer id="footer" />
     </div>
   );
