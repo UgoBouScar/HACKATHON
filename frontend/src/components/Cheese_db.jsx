@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable no-unused-expressions */
-[
+export default [
   {
     id: 1,
     name: "Roquefort",
@@ -113,7 +113,7 @@
   },
   {
     id: 12,
-    name: "bûche de Chèvre",
+    name: "Bûche de Chèvre",
     position_marker: [46.068824, -0.586657],
     image:
       "https://cache.marieclaire.fr/data/photo/w1000_ci/54/fromage-de-chevre.jpg",
